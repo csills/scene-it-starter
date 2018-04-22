@@ -2,19 +2,22 @@ body {
 	background-color: #000000;
 }
 
-.header h2 {
+.display-2 {
 	color: #CCCCCC;
+	font-family: 'Lato', sans-serif;
 }
 
 .header p {
-	color: #DDDDDD;
+	color: #BBBBBB;
+	font-family: 'Roboto', sans-serif;
 }
 
 
 .btn-primary {
     color: #fff;
     background-color: #BA5003;
-    border-color: #BA5003;
+	border-color: #BA5003;
+	font-family: 'Roboto', sans-serif;
 }
 
 .btn-primary:hover {
@@ -38,7 +41,11 @@ body {
 	float: left;
 	margin: 10px;
 	width: 300px;
-} 
+}
+
+.card-title, .card-text {
+	font-family: 'Lato', sans-serif;
+}
 
 img {
 	height: 400px;

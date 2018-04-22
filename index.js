@@ -8,7 +8,7 @@ $(function(){
 			finalHTML += '<div class="card-body">';
 			finalHTML += '<h5 class="card-title">'+ currentMovie.Title +'</h5>';
 			finalHTML += '<p class="card-text">'+ currentMovie.Year +'</p>';
-			finalHTML += '<button data-id="'+ currentMovie.imdbID +'" class="btn btn-primary">Add</button>';
+			finalHTML += '<button data-id="'+ currentMovie.imdbID +'" class="btn btn-primary">ADD</button>';
 			finalHTML += '</div>';
 			finalHTML += '</div>';
 		});
