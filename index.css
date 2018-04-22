@@ -26,6 +26,27 @@ body {
     border-color: #E47D31;
 }
 
+.watchList {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.watchList2 {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	text-align: center;
+	color: #BA5003;
+}
+
+a {
+	color: #BA5003;
+}
+
+a:hover {
+	color: #E47D31;
+}
+
 .results {
 	margin-top: 50px;
 }
@@ -49,4 +70,17 @@ body {
 
 img {
 	height: 400px;
+}
+
+.addMovie {
+    color: #fff;
+    background-color: #BA5003;
+	border-color: #BA5003;
+	font-family: 'Roboto', sans-serif;
+}
+
+.addMovie:hover {
+    color: #fff;
+    background-color: #E47D31;
+    border-color: #E47D31;
 }
