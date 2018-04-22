@@ -1,16 +1,45 @@
 body {
-	background-color: #B2E9FD;
+	background-color: #000000;
 }
 
 .header h2 {
-	color: #DC4247;
+	color: #CCCCCC;
 }
 
 .header p {
-	color: #50524F;
+	color: #DDDDDD;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #BA5003;
+    border-color: #BA5003;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #E47D31;
+    border-color: #E47D31;
 }
 
 .results {
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
+.movies-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.card {
+	float: left;
+	margin: 10px;
+	width: 300px;
+} 
+
+img {
+	height: 400px;
+}
