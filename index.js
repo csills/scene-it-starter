@@ -42,9 +42,20 @@ $(function(){
 	$("form").submit(function(e){
 		e.preventDefault();
 
-		var finalHTML = renderMovies(movieData);
-		$('.movies-container').html(finalHTML);
+		var searchString = $('.search-bar').val();
+		var urlEncodedSearchString = encodeURIComponent(searchString);
+
+		$.ajax({
+			url: "https://www.omdbapi.com/?apikey=3430a78&s=" + urlEncodedSearchString,
+			method: "GET",
+			success: function(response) {
+				movieData = response.Search
+				var finalHTML = renderMovies(response.Search);
+				$('.movies-container').html(finalHTML);
+			}
+		})
 
 	});
+
 
 });
